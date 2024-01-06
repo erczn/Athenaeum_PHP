@@ -1,0 +1,79 @@
+*{
+    
+    font-weight: bold;
+    font-family: 'Courier New'; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-image: url("../images/athen-bg.png");
+    background-size: cover
+}
+.glass{
+    background: #ff9578;
+    min-height: 80vh;
+    width: 35%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,.7), rgba(255,255,255,.3));
+    border-radius: 15px;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.box1, .box2{
+    opacity: 70%;
+    background: white;
+    background: linear-gradient(to right bottom, rgba(255,255,255,.9), rgba(255,255,255,.1));
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.box1{
+    bottom: 5%;
+    right: 30%;
+}
+.box2{
+    top: 4%;
+    left: 27%;
+}
+.form-horizontal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    color: #974d1f;
+    opacity: 0.8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+input{
+    opacity: 0.8;
+    width: 10%;
+    border: none;
+    padding: .5rem;
+    border-radius: 2rem;
+    text-align: center;
+    
+}
+
+.message {
+    opacity: 0.8;
+    margin-top: 10px;
+    position: left;
+    width:100%;    
+}
+video{
+    margin-top: 20px;
+    width: 90%;
+    border-radius: 1rem;
+}

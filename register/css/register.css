@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    font-family: 'Spectral', serif;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #671111;
+
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.glass{
+    background: linear-gradient(to right bottom, rgba(255,255,255,.5), rgba(255,255,255,.3));
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 5px;
+}
+.glass h2{
+    margin-bottom: 10px;
+}
+img{
+    width: 700px;
+    margin-right: 50px;
+}
+input, .reg_btn, select{
+    width: 350px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input-box{
+    margin: 0 0 15px 0;
+}
+.reg_btn{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+    background-color:transparent;
+}
+a{
+    color: #ea9a1a;
+}
+a:hover{
+    color: #671111;
+}
+#button{
+    margin-top: 30px;
+    background-color:#671111;
+    color: aliceblue;
+    width: 350px;
+    border: none;
+    padding: 10px   ;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2)
+}
+#button:hover{
+    background-color:#a00101;
+    transition: 0.3s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

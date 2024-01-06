@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Spectral', serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: whitesmoke;
+    color: #671111;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.wrapper .sidebar{
+    background: #f1f1f1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 270px;
+    height: 100%;
+    padding: 50px 0;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.title h1{
+    margin-top: 50px;
+    font-weight: 800;
+}
+th{
+    background-color: #671111;
+    color: #D9D9D9;
+}
+.b1{
+    border-radius: 8px 0 0 8px;
+}
+.b2{
+    border-radius: 0 8px 8px 0;
+}
+.wrapper .sidebar .athen-logo img{
+    margin-bottom: 60px;
+    display: block;
+    width: 230px;
+    margin: 0px auto 40px auto;
+}
+.wrapper .sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    color: #671111;
+    font-size: 16px;
+    position: relative;
+}
+.wrapper .sidebar ul li a .icon{
+    color:#671111;
+    width: 50px;
+    display: inline-block;
+}
+.wrapper .sidebar .icon img{
+    width: 16px;
+}
+.export-btn{
+    opacity: .8;
+    background-color: transparent;
+    color: #671111;
+    width: 80px;
+    border-color: #671111;
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 1px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+main{
+    margin-left: 25%;
+}
+.bx{
+    size: 24px;
+}
+/*Table*/
+.title h3{
+    margin-top: 50px;
+    font-weight: 800;
+}
+th{
+    background-color: #671111;
+    color: #D9D9D9;
+}
+.b1{
+    border-radius: 8px 0 0 8px;
+}
+.b2{
+    border-radius: 0 8px 8px 0;
+}
+/*Buttons*/
+.total-btns {
+    border-radius: 10px;
+    background-color: #8b2828;
+    color: aliceblue;
+	display: inline-block;
+    padding: 10px 100px 10px 10px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+.total-btns a{
+    color: gray;
+}
+nav ul li .page-link{
+    color: #671111;
+}
+/* nav, nav ul .page-item{
+    float: right;
+} */ 
+.student-details{
+    margin-left: 300px;
+}
+input{
+    width: 350px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+button{
+    opacity: .8;
+    background-color: transparent;
+    color: #671111;
+    width: 80px;
+    border-color: #671111;
+    padding: 5px;
+    border-radius: 8px;
+    border: solid 1px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+.container{
+    margin-left: 25%;
+}
